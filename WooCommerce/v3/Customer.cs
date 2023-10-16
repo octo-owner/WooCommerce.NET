@@ -120,10 +120,35 @@ namespace WooCommerceNET.WooCommerce.v3
     }
 
     [DataContract]
-    public class CustomerBilling : v2.CustomerBilling { }
+    public class CustomerBilling : v2.CustomerBilling {
+
+        /// <summary>
+        /// Address Number
+        /// </summary>
+        [DataMember(EmitDefaultValue = false)]
+        public string number { get; set; }
+
+        /// <summary>
+        /// Address Neighborhood
+        /// </summary>
+        [DataMember(EmitDefaultValue = false)]
+        public string neighborhood { get; set; }
+    }
 
     [DataContract]
-    public class CustomerShipping : v2.CustomerShipping { }
+    public class CustomerShipping : v2.CustomerShipping {
+        /// <summary>
+        /// Address Number
+        /// </summary>
+        [DataMember(EmitDefaultValue = false)]
+        public string number { get; set; }
+
+        /// <summary>
+        /// Address Neighborhood
+        /// </summary>
+        [DataMember(EmitDefaultValue = false)]
+        public string neighborhood { get; set; }
+    }
     
     [DataContract]
     public class CustomerDownloads : v2.CustomerDownloads { }
