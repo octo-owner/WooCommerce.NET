@@ -181,13 +181,13 @@ namespace WooCommerceNET.WooCommerce.v2
         /// Billing address. See Order - Billing properties
         /// </summary>
         [DataMember(EmitDefaultValue = false)]
-        public OrderBilling billing { get; set; }
+        public virtual OrderBilling billing { get; set; }
 
         /// <summary>
         /// Shipping address. See Order - Shipping properties
         /// </summary>
         [DataMember(EmitDefaultValue = false)]
-        public OrderShipping shipping { get; set; }
+        public virtual OrderShipping shipping { get; set; }
 
         /// <summary>
         /// Payment method ID.

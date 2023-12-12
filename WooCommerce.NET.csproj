@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>WooCommerceNET-Brazilian</PackageId>
-    <Version>0.8.7</Version>
+    <Version>0.8.9.1</Version>
     <Authors>JamesYang@NZ</Authors>
     <Company>JamesYang@NZ</Company>
     <Description>A .NET Wrapper for WooCommerce/WordPress REST API</Description>
@@ -15,15 +15,15 @@
 GitHub: https://github.com/XiaoFaye/WooCommerce.NET
 Changes Doc: https://github.com/XiaoFaye/WooCommerce.NET/blob/master/Changes.md
 
-* v0.8.7 update
+* v0.8.9.1 update
   1. Adding Support do Brazilian Address.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>0.8.6.0</AssemblyVersion>
+    <AssemblyVersion>0.8.9.1</AssemblyVersion>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>sn.key.snk</AssemblyOriginatorKeyFile>
     <PackageLicenseFile>License.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <FileVersion>0.8.6.0</FileVersion>
+    <FileVersion>0.8.9.1</FileVersion>
     <PackageTags>WooCommerce Wordpress Restful API - Brazilian Fields Support</PackageTags>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageOutputPath>C:\Deploy\Packages\OCTO.Integration</PackageOutputPath>
